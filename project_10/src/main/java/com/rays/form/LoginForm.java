@@ -15,7 +15,7 @@ public class LoginForm extends BaseForm {
 	
 	
 	//message= "please enter loginId"
-	@NotEmpty(message= "loginId is must required")
+	@NotEmpty(message= "loginId is required")
 	@Email
 	private String loginId;
 
